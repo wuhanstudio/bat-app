@@ -1,4 +1,4 @@
-adversarial-robustness-toolbox
+blackbox-adversarial-toolbox
 future
 numpy
 pandas
