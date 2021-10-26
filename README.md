@@ -12,7 +12,7 @@ https://github.com/wuhanstudio/blackbox-adversarial-toolbox
 
 ```
 $ pip install streamlit blackbox-adversarial-toolbox numpy pillow pandas requests tqdm
-$ streamlit run main.py
+$ streamlit run streamlit_app.py
 ```
 
 
