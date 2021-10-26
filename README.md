@@ -4,9 +4,17 @@
 
 > Demo application for the Black-box Adversarial Toolbox (BAT)
 
-This app demonstrates how to attack the image classification cloud api in several seconds
+This app demonstrates how to attack the image classification cloud api in several seconds.
 
 https://github.com/wuhanstudio/blackbox-adversarial-toolbox
+
+## Quick Start
+
+```
+$ pip install streamlit blackbox-adversarial-toolbox
+$ streamlit run main.py
+```
+
 
 ![](bat-app.png)
 
