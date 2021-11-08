@@ -37,7 +37,7 @@ if f is not None:
     x = np.asarray(img.resize((32, 32))) / 255.0
 
     # Initialize the Cloud API Model
-    model = VGG16Cifar10("https://deepapi-bqwkrw3iga-nw.a.run.app" + "/vgg16_cifar10")
+    model = VGG16Cifar10("https://deep.wuhanstudio.uk" + "/vgg16_cifar10")
 
     # Get Preditction
     y_pred = model.predict(np.array([x]))[0]
