@@ -11,7 +11,7 @@ from bat.apis.deepapi import VGG16Cifar10
 from tqdm import tqdm
 
 # Initialize the UI
-st.header("Black-box Attack Toolbox (BAT)")
+st.header("Black-box Adversarial Toolbox (BAT)")
 
 logo = Image.open('bat_dark.png')
 st.sidebar.image(logo, use_column_width=True)
